@@ -175,3 +175,14 @@
 - tên gì
 - cho xin cái tên bạn ơi
 - cho xin cái tên
+
+## intent: give_name
+- [Anh](cust_sex) là [Gió](cust_name)
+- [Anh](cust_sex) là [meomeo](cust_name)
+- [anh](cust_sex) là [meomeo](cust_name)
+- [Chị](cust_sex) là [Mèo](cust_name)
+- [chị](cust_sex) là [Mèo](cust_name)
+- [Em](cust_sex) là [Chim](cust_name)
+- [em](cust_sex) là [Chim](cust_name)
+
+

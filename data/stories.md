@@ -29,3 +29,15 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+  
+## ask function
+* ask_func_list
+    - utter_showfunclist
+    
+## greet with name
+* greet
+    - utter_greet
+* give_name
+    - utter_greet_with_detail
+* ask_name
+    - utter_ask_name
