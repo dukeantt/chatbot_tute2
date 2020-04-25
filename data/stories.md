@@ -41,3 +41,19 @@
     - utter_greet_with_detail
 * ask_name
     - utter_ask_name
+    
+## approve
+* affirm
+    - utter_agree
+    
+## show_lottery_result
+* greet
+    - utter_greet
+* ask_lottery
+    - action_get_lottery
+* affirm
+    - utter_agree
+
+## ask lottery simple
+* ask_lottery
+    - action_get_lottery

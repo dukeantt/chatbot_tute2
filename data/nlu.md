@@ -44,6 +44,7 @@
 - that sounds good
 - correct
 - đồng ý
+- thằng hải anh béo vl
 
 ## intent:deny
 - no
@@ -184,5 +185,26 @@
 - [chị](cust_sex) là [Mèo](cust_name)
 - [Em](cust_sex) là [Chim](cust_name)
 - [em](cust_sex) là [Chim](cust_name)
+- [kybiu](cust_name) đây
+- [chung](cust_name) đây
+- [khánh](cust_name) đây
+- [hải anh](cust_name) đây
+- [nam gay](cust_name) đây
+- [moc](cust_name) đây
+- [Kybiu](cust_name) đây
+- [Chung](cust_name) đây
+- [Khánh](cust_name) đây
+- [Hải Anh](cust_name) đây
+- [Nam gay](cust_name) đây
+- [Moc](cust_name) đây
+
+## intent: ask_lottery
+- kết quả xổ số
+- kết quả xổ số hôm nay
+- hôm nay kết quả xổ số thế nào
+- xổ số hôm nay
+- xổ số
+- xổ số bạn ơi
+- cho xin cái kết quả xổ số bạn ơi
 
 

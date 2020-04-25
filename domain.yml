@@ -10,6 +10,7 @@ intents:
   - ask_func_list
   - ask_name
   - give_name
+  - ask_lottery
 
 entities:
   - cust_sex
@@ -26,32 +27,35 @@ slots:
 
 responses:
   utter_greet:
-    - text: "Chào bạn :3"
+    - text: "chào bạn :3"
 
   utter_greet_with_detail:
-    - text: "Vâng {cust_sex} {cust_name}."
+    - text: "hello {cust_name}."
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
       image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-    - text: "Did that help you?"
+    - text: "nó có giúp bạn cảm thấy tốt hơn không ?"
 
   utter_happy:
-    - text: "Great, carry on!"
+    - text: "tuyệt vời !!!"
 
   utter_goodbye:
-    - text: "Hẹn gặp lại nhé ;)"
+    - text: "hẹn gặp lại nhé ;)"
 
   utter_iamabot:
-    - text: "I am a bot, powered by Rasa."
+    - text: "tớ là skynet, tạo bởi kybiu"
 
   utter_showfunclist:
-    - text: "Tôi có thể yêu bạn <3 hoặc là cho bạn biết được ai là ai trong công ty B-)"
+    - text: "tớ có thể yêu bạn <3"
 
   utter_ask_name:
-    - text: "Tôi là chatbot"
+    - text: "tớ là skynet"
+
+  utter_agree:
+    - text: "chuẩn"
 
 
 actions:
@@ -64,6 +68,8 @@ actions:
   - utter_iamabot
   - utter_showfunclist
   - utter_ask_name
+  - utter_agree
+  - action_get_lottery
 
 session_config:
   session_expiration_time: 60
